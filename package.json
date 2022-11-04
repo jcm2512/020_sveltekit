@@ -22,9 +22,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@prisma/client": "^4.5.0"
+		"@prisma/client": "^4.5.0",
+		"prisma": "^4.5.0"
 	},
 	"prisma": {
 		"seed": "node prisma/seed.js"
-	  }
+	}
 }
